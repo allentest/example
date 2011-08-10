@@ -1,7 +1,0 @@
-nmap -sT -O localhost
-
-cat /etc/services | grep 非正常端口号
-
-netstat -anp | grep 非正常端口号
-
-lsof -i | grep 非正常端口号
